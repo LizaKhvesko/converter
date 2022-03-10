@@ -1,0 +1,29 @@
+main{
+  background-color: rgb(180, 113, 18);
+  padding: 20px;
+  width: 700px;
+}
+
+input{
+  margin-bottom: 10px;
+}
+
+.convert-block{
+  display: flex;
+  column-gap: 70px;
+  margin-top: 30px;
+}
+
+.block{
+  padding: 20px;
+}
+
+button{
+  background-color: rgb(224, 152, 18);
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
+h1{
+ text-align: center;
+}

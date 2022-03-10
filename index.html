@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Конвертер валюты</title>
+	<script src="js/script.js" defer></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+	<main>
+		<h1>Конвертер валюты</h1>
+		<form>
+		<h2>Выберите валюту:</h2>
+		<label for="eur">EUR
+		<input type="radio" value="eur" name="money" id="EUR" checked></label><br>
+		<label for="usd">USD
+		<input type="radio" value="usd" name="money" id="USD"></label><br>
+
+		<div class="convert-block">
+			<div class="block">
+				<input type="number" placeholder="Введите число" name="worldMoney" id="worldMoney" value="worldMoney">
+				<label for="worldMoney" class="currencyName">EUR</label>
+				<label for="bynMoney">
+				<input type="number" name="bynMoney" id="bynMoney" value="bynMoney">
+				BYN</label><br>
+				<button type="button" class="toByn"> Конвертировать </button><br>
+			</div>
+			<div class="block">
+				<label for="bynMoney2">
+				<input type="number" placeholder="Введите число" name="bynMoney2" id="bynMoney2" value="bynMoney2">
+				BYN</label>
+				<input type="number" name="worldMoney2" id="worldMoney2" value="worldMoney2">
+				<label for="worldMoney2" class="currencyName">EUR</label>
+				<br>
+				<button type="button" class="toWorld"> Конвертировать </button>
+			</div>
+		</div>
+
+		</form>
+	</main>
+</body>
+</html>
